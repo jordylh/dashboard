@@ -13,11 +13,11 @@ jobs:
     steps:
       # Paso 1 - Checkout del repositorio
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Paso 2 - Configurar Node.js
       - name: Setup Node
-        uses: actions/setup-node@v3  # Actualiza a la versión v3 de setup-node
+        uses: actions/setup-node@v4  # Actualiza a la versión v3 de setup-node
         with:
           node-version: 16
 
